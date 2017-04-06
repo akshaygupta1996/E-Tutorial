@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="connect.shopping.akshay.tutorials.TutorialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/cprog"
+            android:scaleType="centerInside"
+            android:background="@color/cardview_light_background"
+            android:id="@+id/imgC"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/cplus"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            android:id="@+id/imgCpluplus"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/java"
+            android:scaleType="fitCenter"
+            android:background="@color/cardview_light_background"
+            android:id="@+id/imgJava"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/python"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            android:id="@+id/imgPython"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/sql"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            android:id="@+id/imgSQL"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/php"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            android:id="@+id/imgPhp"/>
+    </LinearLayout>
+
+</LinearLayout>
